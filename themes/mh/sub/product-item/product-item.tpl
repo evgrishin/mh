@@ -67,6 +67,8 @@
 		<div class="product-meta">
 			<div class="product-title">
 				<h5 class="name">
+
+
 					{if isset($product.pack_quantity) && $product.pack_quantity}{$product.pack_quantity|intval|cat:' x '}{/if}
 					<a class="product-name" href="{$link->getProductLink($product.id_product, null, null, null, null, null, $product.id_product_attribute, Configuration::get('PS_REWRITING_SETTINGS'), false, true)|escape:'html':'UTF-8'}">
 						{$product.name|truncate:90:'...'|escape:'html':'UTF-8'}
