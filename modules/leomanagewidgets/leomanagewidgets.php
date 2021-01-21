@@ -1392,7 +1392,8 @@ class LeoManagewidgets extends Module
 			return;
 
 		if ($use_push && !$moduleInstance->allow_push)
-			continue;
+			//continue;
+		    return;
 		// Check which / if method is callable
 		$hook_callable = is_callable(array($moduleInstance, 'hook'.$hook_name));
 		$hook_retro_callable = is_callable(array($moduleInstance, 'hook'.$retro_hook_name));

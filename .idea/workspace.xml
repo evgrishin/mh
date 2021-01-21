@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05d2896-ab04-4021-867e-66a308208581" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/settings.inc.new.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/mh/sub/product-item/product-item.tpl" afterPath="$PROJECT_DIR$/themes/mh/sub/product-item/product-item.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.inc.php" afterPath="$PROJECT_DIR$/config/config.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/leomanagewidgets/leomanagewidgets.php" afterPath="$PROJECT_DIR$/modules/leomanagewidgets/leomanagewidgets.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,9 +29,57 @@
       <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="65" column="60" lean-forward="true" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+            <state relative-caret-position="438">
+              <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.inc.dev.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/settings.inc.dev.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.inc.new.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/settings.inc.new.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leomanagewidgets.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/leomanagewidgets/leomanagewidgets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="1395" column="19" lean-forward="false" selection-start-line="1395" selection-start-column="19" selection-end-line="1395" selection-end-column="19" />
+              <folding>
+                <marker date="1611259799939" expanded="true" signature="7607:7787" ph="DROP TABLE I... " />
+                <marker date="1611259799939" expanded="true" signature="8060:8228" ph="DROP TABLE I... " />
+                <marker date="1611259799939" expanded="true" signature="33106:33406" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="33295:33406" ph="..." />
+                <marker date="1611259799939" expanded="false" signature="33340:33405" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="34302:34978" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="34475:34943" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="35283:35550" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="35818:36056" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="35936:36056" ph="..." />
+                <marker date="1611259799939" expanded="true" signature="43951:44215" ph="DELETE FROM " />
+                <marker date="1611259799939" expanded="true" signature="44021:44098" ph="SELECT `id_h... ${_DB_PREFIX_}hook" />
+                <marker date="1611259799939" expanded="true" signature="44127:44214" ph="SELECT`id_mo... ${_DB_PREFIX_}module" />
+                <marker date="1611259799939" expanded="true" signature="53778:53972" ph="SELECT m.nam... ${_DB_PREFIX_}module" />
+                <marker date="1611259799939" expanded="true" signature="55120:55236" ph="SELECT * FRO... ${_DB_PREFIX_}hook_module" />
+                <marker date="1611259799939" expanded="true" signature="55393:55593" ph="SELECT m.* F... ${_DB_PREFIX_}module" />
+                <marker date="1611259799939" expanded="true" signature="55720:55846" ph="SELECT `id_h... ${_DB_PREFIX_}hook" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -79,9 +129,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/themes/mh/sub/product-item/product-item.tpl" />
-        <option value="$PROJECT_DIR$/config/config.inc.php" />
         <option value="$PROJECT_DIR$/config/settings.inc.php" />
         <option value="$PROJECT_DIR$/config/.gitignore" />
+        <option value="$PROJECT_DIR$/config/config.inc.php" />
+        <option value="$PROJECT_DIR$/config/settings.inc.new.php" />
+        <option value="$PROJECT_DIR$/modules/leomanagewidgets/leomanagewidgets.php" />
       </list>
     </option>
   </component>
@@ -122,7 +174,13 @@
             <path>
               <item name="mh" type="b2602c69:ProjectViewProjectNode" />
               <item name="mh" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mh" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="leomanagewidgets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -158,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611224045211</updated>
-      <workItem from="1611224046386" duration="4096000" />
+      <workItem from="1611224046386" duration="5828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4096000" />
+    <option name="totallyTimeSpent" value="5828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -207,26 +265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.inc.dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/defines.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
           <caret line="140" column="25" lean-forward="true" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="65" column="60" lean-forward="true" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -244,6 +286,56 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings.inc.dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings.inc.new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/leomanagewidgets/leomanagewidgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="1395" column="19" lean-forward="false" selection-start-line="1395" selection-start-column="19" selection-end-line="1395" selection-end-column="19" />
+          <folding>
+            <marker date="1611259799939" expanded="true" signature="7607:7787" ph="DROP TABLE I... " />
+            <marker date="1611259799939" expanded="true" signature="8060:8228" ph="DROP TABLE I... " />
+            <marker date="1611259799939" expanded="true" signature="33106:33406" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="33295:33406" ph="..." />
+            <marker date="1611259799939" expanded="false" signature="33340:33405" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="34302:34978" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="34475:34943" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="35283:35550" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="35818:36056" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="35936:36056" ph="..." />
+            <marker date="1611259799939" expanded="true" signature="43951:44215" ph="DELETE FROM " />
+            <marker date="1611259799939" expanded="true" signature="44021:44098" ph="SELECT `id_h... ${_DB_PREFIX_}hook" />
+            <marker date="1611259799939" expanded="true" signature="44127:44214" ph="SELECT`id_mo... ${_DB_PREFIX_}module" />
+            <marker date="1611259799939" expanded="true" signature="53778:53972" ph="SELECT m.nam... ${_DB_PREFIX_}module" />
+            <marker date="1611259799939" expanded="true" signature="55120:55236" ph="SELECT * FRO... ${_DB_PREFIX_}hook_module" />
+            <marker date="1611259799939" expanded="true" signature="55393:55593" ph="SELECT m.* F... ${_DB_PREFIX_}module" />
+            <marker date="1611259799939" expanded="true" signature="55720:55846" ph="SELECT `id_h... ${_DB_PREFIX_}hook" />
+          </folding>
         </state>
       </provider>
     </entry>
