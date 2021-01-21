@@ -1,0 +1,19 @@
+@import "compass";
+@import "theme_variables";
+.header_user_info {
+	text-align: right;
+	margin-top: 10px;
+	@media (max-width: $screen-ms-max) {
+		text-align: center;
+		margin: 10px 0px;
+	}
+	a {
+		cursor: pointer;
+		&:hover, &.active {
+		}
+	}
+}
+
+.header_user_info_nav{
+float: right;
+}

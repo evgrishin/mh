@@ -1,0 +1,89 @@
+/* line 3, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone {
+  float: left;
+  padding: 5px 0 10px;
+  line-height: 18px;
+}
+@media (max-width: 767px) {
+  /* line 3, ../../../sass/modules/blockcontact/blockcontact.scss */
+  .shop-phone {
+    display: none;
+  }
+}
+/* line 10, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone i {
+  font-size: 21px;
+  line-height: 21px;
+  color: white;
+  padding-right: 7px;
+}
+/* line 16, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone strong {
+  color: white;
+}
+
+/* line 20, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link {
+  float: right;
+  border-left: 1px solid #515151;
+}
+@media (max-width: 479px) {
+  /* line 20, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact-link {
+    width: 25%;
+    text-align: center;
+  }
+}
+/* line 27, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px 11px 10px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0);
+  cursor: pointer;
+  line-height: 18px;
+}
+@media (max-width: 479px) {
+  /* line 27, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact-link a {
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+/* line 40, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link a:hover, #contact-link a.active {
+  background: #2b2b2b;
+}
+
+@media (max-width: 767px) {
+  /* line 45, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+/* line 49, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block .label {
+  display: none;
+}
+/* line 52, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block .block_content {
+  color: #888888;
+}
+/* line 55, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p {
+  margin-bottom: 4px;
+}
+/* line 58, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p.tel {
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  color: #9fa284;
+  margin-bottom: 6px;
+}
+/* line 62, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}

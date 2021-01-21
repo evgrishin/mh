@@ -1,0 +1,2 @@
+Заказ на сумму {total_paid}. [{shop_url}] 
+

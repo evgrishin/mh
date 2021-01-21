@@ -1,0 +1,18 @@
+@import "compass";
+@import "theme_variables";
+/*******************************************************************
+				Products next/prev arrows  styles
+********************************************************************/
+
+#productsnavpn{
+	font-size: 20px;
+	position: relative;
+	top: -3px;
+	a{color: $base-border-color;
+
+	&:after{content: ""; display: none;}	
+	&:hover{
+		color: $base-text-color;
+		}}
+	}
+

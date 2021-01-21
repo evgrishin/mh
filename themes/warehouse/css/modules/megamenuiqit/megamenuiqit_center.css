@@ -1,0 +1,15 @@
+#topmenuContener #megamenuiqit {
+  text-align: center; }
+  #topmenuContener #megamenuiqit > li {
+    text-align: left;
+    float: none;
+    display: inline-block; }
+
+@media (min-width: 1000px) {
+  #center-layered-nav.stick_layered .layeredSortBy {
+    display: none; }
+  #center-layered-nav.stick_layered .container {
+    text-align: center; }
+  #center-layered-nav.stick_layered #layered_block_left {
+    display: inline-block;
+    text-align: left; } }

@@ -1,0 +1,49 @@
+@import "compass";
+@import "theme_variables";
+@import "font-awesome/font-awesome";
+@import "icons";
+@import "warehousefont";
+/*********************************************************************
+					Maintenance Page Styles
+**********************************************************************/
+#maintenance-page{
+.logo {
+	text-align: center;
+		margin: 30px 0;	
+	}
+		.title_block
+	h4 {
+		font:  12px / 14px $font-custom;
+		color: $base-heading-color;
+		border-bottom: $main_border;
+		text-transform: uppercase;
+		padding: 6px 5px 10px 0px;
+		margin-bottom: 20px;
+		margin-top: 0px;
+		a {
+			color: $base-heading-color;
+			&:hover {
+				color: $base-text-color;
+			}
+		}
+	}
+ul{
+	padding: 0px;
+}
+footer section{margin-top: 20px;}
+}
+#maintenance {
+	border-top: 1px solid $base-border-color;
+	border-bottom:  1px solid $base-border-color;
+	background: $base-box-bg;
+	@include transition(all 0.3s ease);
+	
+	&:hover{
+		background:	#f7f7f7;
+	}
+	#message {
+		font: 400 16px/31px $font-custom;
+		padding: 40px 0;
+		color: #555454;
+	}
+}

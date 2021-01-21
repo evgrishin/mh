@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>                                                   
+    <fields objectName="LeoManageWidgetGroup" objectFile="LeoManageWidgetGroup.php" searchField="id_shop">
+        <field>
+            <id>125</id>
+            <active>1</active>
+            <position>2</position>
+            <hook_name><![CDATA[displayhome]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6ImNsZWFyIHJvdyIsImFjdGl2ZSI6IjEiLCJob29rX25hbWUiOiJkaXNwbGF5aG9tZSIsInRpdGxlX2VuIjoiIn0=]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>99</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>125</id_group>
+            <params><![CDATA[eyJjbGFzcyI6InRlc3RpbW9uaWFsIiwibGciOiIxMiIsIm1kIjoiMTIiLCJzbSI6IjEyIiwieHMiOiIxMiIsInNwIjoiMTIiLCJiYWNrZ3JvdW5kIjoiIiwicGFnZXMiOiIiLCJzcGVjaWZpYyI6ImFsbCIsImNvbnRyb2xsZXJpZHMiOiIiLCJza2luYW5pbWF0ZSI6IiIsImFuaW1hdGVvZmZzZXQiOiIiLCJkZWxheWFuaW1hdGUiOiIifQ==]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>112</id>
+            <id_column>99</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1410090957</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>127</id>
+            <active>1</active>
+            <position>1</position>
+            <hook_name><![CDATA[displayfooter]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6ImNsZWFyIHJvdyBmb290ZXItY2VudGVyIiwiYWN0aXZlIjoiMSIsImhvb2tfbmFtZSI6ImRpc3BsYXlmb290ZXIiLCJhbmltYXRlX29mZnNldCI6IiIsImRlbGF5X2FuaW1hdGUiOiIiLCJ0aXRsZV9lbiI6IiJ9]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>101</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>127</id_group>
+            <params><![CDATA[eyJjbGFzcyI6Im5vLXBhZGRpbmciLCJsZyI6IjgiLCJtZCI6IjQiLCJzbSI6IjYiLCJ4cyI6IjEyIiwic3AiOiIxMiIsImJhY2tncm91bmQiOiIiLCJwYWdlcyI6IiIsInNwZWNpZmljIjoiYWxsIiwiY29udHJvbGxlcmlkcyI6IiIsInNraW5hbmltYXRlIjoiIiwiYW5pbWF0ZW9mZnNldCI6IiIsImRlbGF5YW5pbWF0ZSI6IiJ9]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>138</id>
+            <id_column>101</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>0</key_widget>
+            <module_name><![CDATA[blocknewsletter]]></module_name>
+            <hook_name><![CDATA[displayFooter]]></hook_name>
+            <type>1</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>102</id>
+            <active>1</active>
+            <position>2</position>
+            <id_group>127</id_group>
+            <params><![CDATA[eyJjbGFzcyI6Im5vLXBhZGRpbmciLCJsZyI6IjQiLCJtZCI6IjQiLCJzbSI6IjYiLCJ4cyI6IjEyIiwic3AiOiIxMiIsImJhY2tncm91bmQiOiIiLCJwYWdlcyI6IiIsInNwZWNpZmljIjoiYWxsIiwiY29udHJvbGxlcmlkcyI6IiIsInNraW5hbmltYXRlIjoiIiwiYW5pbWF0ZW9mZnNldCI6IiIsImRlbGF5YW5pbWF0ZSI6IiJ9]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>139</id>
+            <id_column>102</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1413022239</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>129</id>
+            <active>1</active>
+            <position>3</position>
+            <hook_name><![CDATA[displayhome]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6ImNsZWFyIHJvdyIsImFjdGl2ZSI6IjEiLCJob29rX25hbWUiOiJkaXNwbGF5aG9tZSIsImFuaW1hdGVfb2Zmc2V0IjoiIiwiZGVsYXlfYW5pbWF0ZSI6IiIsInRpdGxlX2VuIjoiIn0=]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>105</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>129</id_group>
+            <params><![CDATA[eyJsZyI6MTIsIm1kIjoxMiwic20iOjEyLCJ4cyI6MTIsInNwIjoxMn0=]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>131</id>
+            <id_column>105</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1428899551</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>136</id>
+            <active>1</active>
+            <position>1</position>
+            <hook_name><![CDATA[displayhome]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyIsImFjdGl2ZSI6MSwiaG9va19uYW1lIjoiZGlzcGxheWhvbWUiLCJhbmltYXRlX29mZnNldCI6IiIsImRlbGF5X2FuaW1hdGUiOiIiLCJza2luX2FuaW1hdGUiOiIiLCJ0aXRsZV9lbiI6IiJ9]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>112</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>136</id_group>
+            <params><![CDATA[eyJjbGFzcyI6IiIsImxnIjoiMTIiLCJtZCI6IjEyIiwic20iOiIxMiIsInhzIjoiMTIiLCJzcCI6IjEyIiwiYmFja2dyb3VuZCI6IiIsInBhZ2VzIjoiIiwic3BlY2lmaWMiOiJhbGwiLCJjb250cm9sbGVyaWRzIjoiIiwic2tpbmFuaW1hdGUiOiIiLCJhbmltYXRlb2Zmc2V0IjoiIiwiZGVsYXlhbmltYXRlIjoiIn0=]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>125</id>
+            <id_column>112</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1414067043</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>137</id>
+            <active>1</active>
+            <position>2</position>
+            <hook_name><![CDATA[displayfooter]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyBmb290ZXItYm90dG9tIiwiYWN0aXZlIjoxLCJob29rX25hbWUiOiJkaXNwbGF5Zm9vdGVyIiwiYW5pbWF0ZV9vZmZzZXQiOiIiLCJkZWxheV9hbmltYXRlIjoiIiwic2tpbl9hbmltYXRlIjoiIiwiYmFja2dyb3VuZF9zdHlsZSI6IiIsImJhY2tncm91bmRfc3R5bGVfY29sb3IiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX2ltYWdlX3VybCI6IiIsImJhY2tncm91bmRfc3R5bGVfcG9zaXRpb24iOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3JlcGVhdCI6Im5vLXJlcGVhdCIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfc3BlZWQiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X29mZnNldHgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X29mZnNldHkiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfc3RyZW5ndGgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfYXhpcyI6ImJvdGgiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfb2Zmc2V0eCI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9vZmZzZXR5IjoiIiwiYmFja2dyb3VuZF92aWRlb19zb3VyY2UiOiJ5b3V0dWJlIiwiYmFja2dyb3VuZF92aWRlb192aWQiOiIiLCJiYWNrZ3JvdW5kX3ZpZGVvX21wNCI6IiIsImJhY2tncm91bmRfdmlkZW9fd2VibSI6IiIsImJhY2tncm91bmRfdmlkZW9fb2dnIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9mdWxsd2lkdGgiOiIwIiwidGl0bGVfZW4iOiIifQ==]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>124</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>137</id_group>
+            <params><![CDATA[eyJjbGFzcyI6IiIsImxnIjoiMTIiLCJtZCI6IjEyIiwic20iOiIxMiIsInhzIjoiMTIiLCJzcCI6IjEyIiwiYmFja2dyb3VuZCI6IiIsInBhZ2VzIjoiIiwic3BlY2lmaWMiOiJhbGwiLCJjb250cm9sbGVyaWRzIjoiIiwic2tpbmFuaW1hdGUiOiIiLCJhbmltYXRlb2Zmc2V0IjoiIiwiZGVsYXlhbmltYXRlIjoiIn0=]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>142</id>
+            <id_column>124</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1430798933</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>140</id>
+            <active>1</active>
+            <position>1</position>
+            <hook_name><![CDATA[displaytopcolumn]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyIsImFjdGl2ZSI6MSwiaG9va19uYW1lIjoiZGlzcGxheXRvcGNvbHVtbiIsImFuaW1hdGVfb2Zmc2V0IjoiIiwiZGVsYXlfYW5pbWF0ZSI6IiIsInNraW5fYW5pbWF0ZSI6IiIsImJhY2tncm91bmRfc3R5bGUiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX2NvbG9yIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9pbWFnZV91cmwiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3Bvc2l0aW9uIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9yZXBlYXQiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X3NwZWVkIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9wYXJhbGxheF9vZmZzZXR4IjoiIiwiYmFja2dyb3VuZF9zdHlsZV9wYXJhbGxheF9vZmZzZXR5IjoiIiwiYmFja2dyb3VuZF9zdHlsZV9tb3VzZXBhcmFsbGF4X3N0cmVuZ3RoIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9tb3VzZXBhcmFsbGF4X2F4aXMiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfb2Zmc2V0eCI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9vZmZzZXR5IjoiIiwiYmFja2dyb3VuZF92aWRlb19zb3VyY2UiOiIiLCJiYWNrZ3JvdW5kX3ZpZGVvX3ZpZCI6IiIsImJhY2tncm91bmRfdmlkZW9fbXA0IjoiIiwiYmFja2dyb3VuZF92aWRlb193ZWJtIjoiIiwiYmFja2dyb3VuZF92aWRlb19vZ2ciOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX2Z1bGx3aWR0aCI6IiIsInRpdGxlX2VuIjoiIn0=]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>116</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>140</id_group>
+            <params><![CDATA[eyJjbGFzcyI6IiIsImxnIjoiMTIiLCJtZCI6IjEyIiwic20iOiIxMiIsInhzIjoiMTIiLCJzcCI6IjEyIiwiYmFja2dyb3VuZCI6IiIsInBhZ2VzIjoiIiwic3BlY2lmaWMiOiJhbGwiLCJjb250cm9sbGVyaWRzIjoiIiwic2tpbmFuaW1hdGUiOiIiLCJhbmltYXRlb2Zmc2V0IjoiIiwiZGVsYXlhbmltYXRlIjoiIn0=]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>129</id>
+            <id_column>116</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>0</key_widget>
+            <module_name><![CDATA[leosliderlayer]]></module_name>
+            <hook_name><![CDATA[displayTopColumn]]></hook_name>
+            <type>1</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>143</id>
+            <active>1</active>
+            <position>4</position>
+            <hook_name><![CDATA[displayhome]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyIsImFjdGl2ZSI6MSwiaG9va19uYW1lIjoiZGlzcGxheWhvbWUiLCJhbmltYXRlX29mZnNldCI6IiIsImRlbGF5X2FuaW1hdGUiOiIiLCJza2luX2FuaW1hdGUiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9jb2xvciI6IiNmZGI3MDAiLCJiYWNrZ3JvdW5kX3N0eWxlX2ltYWdlX3VybCI6IiIsImJhY2tncm91bmRfc3R5bGVfcG9zaXRpb24iOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3JlcGVhdCI6Im5vLXJlcGVhdCIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfc3BlZWQiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X29mZnNldHgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X29mZnNldHkiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfc3RyZW5ndGgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfYXhpcyI6ImJvdGgiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfb2Zmc2V0eCI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9vZmZzZXR5IjoiIiwiYmFja2dyb3VuZF92aWRlb19zb3VyY2UiOiJ5b3V0dWJlIiwiYmFja2dyb3VuZF92aWRlb192aWQiOiIiLCJiYWNrZ3JvdW5kX3ZpZGVvX21wNCI6IiIsImJhY2tncm91bmRfdmlkZW9fd2VibSI6IiIsImJhY2tncm91bmRfdmlkZW9fb2dnIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9mdWxsd2lkdGgiOiIwIiwidGl0bGVfZW4iOiIifQ==]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>119</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>143</id_group>
+            <params><![CDATA[eyJjbGFzcyI6IiIsImxnIjoiMTIiLCJtZCI6IjEyIiwic20iOiIxMiIsInhzIjoiMTIiLCJzcCI6IjEyIiwiYmFja2dyb3VuZCI6IiIsInBhZ2VzIjoiIiwic3BlY2lmaWMiOiJhbGwiLCJjb250cm9sbGVyaWRzIjoiIiwic2tpbmFuaW1hdGUiOiIiLCJhbmltYXRlb2Zmc2V0IjoiIiwiZGVsYXlhbmltYXRlIjoiIn0=]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>134</id>
+            <id_column>119</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1429950750</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>144</id>
+            <active>1</active>
+            <position>5</position>
+            <hook_name><![CDATA[displayhome]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyIsImFjdGl2ZSI6MSwiaG9va19uYW1lIjoiZGlzcGxheWhvbWUiLCJhbmltYXRlX29mZnNldCI6IiIsImRlbGF5X2FuaW1hdGUiOiIiLCJza2luX2FuaW1hdGUiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9jb2xvciI6IiIsImJhY2tncm91bmRfc3R5bGVfaW1hZ2VfdXJsIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9wb3NpdGlvbiI6IiIsImJhY2tncm91bmRfc3R5bGVfcmVwZWF0IjoiIiwiYmFja2dyb3VuZF9zdHlsZV9wYXJhbGxheF9zcGVlZCI6IiIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfb2Zmc2V0eCI6IiIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfb2Zmc2V0eSI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9zdHJlbmd0aCI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9heGlzIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9tb3VzZXBhcmFsbGF4X29mZnNldHgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfb2Zmc2V0eSI6IiIsImJhY2tncm91bmRfdmlkZW9fc291cmNlIjoiIiwiYmFja2dyb3VuZF92aWRlb192aWQiOiIiLCJiYWNrZ3JvdW5kX3ZpZGVvX21wNCI6IiIsImJhY2tncm91bmRfdmlkZW9fd2VibSI6IiIsImJhY2tncm91bmRfdmlkZW9fb2dnIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9mdWxsd2lkdGgiOiIiLCJ0aXRsZV9lbiI6IiJ9]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>120</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>144</id_group>
+            <params><![CDATA[eyJjbGFzcyI6IiIsImxnIjoiMTIiLCJtZCI6IjEyIiwic20iOiIxMiIsInhzIjoiMTIiLCJzcCI6IjEyIiwiYmFja2dyb3VuZCI6IiIsInBhZ2VzIjoiIiwic3BlY2lmaWMiOiJhbGwiLCJjb250cm9sbGVyaWRzIjoiIiwic2tpbmFuaW1hdGUiOiIiLCJhbmltYXRlb2Zmc2V0IjoiIiwiZGVsYXlhbmltYXRlIjoiIn0=]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>135</id>
+            <id_column>120</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1429956753</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>145</id>
+            <active>1</active>
+            <position>6</position>
+            <hook_name><![CDATA[displayhome]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyIsImFjdGl2ZSI6MSwiaG9va19uYW1lIjoiZGlzcGxheWhvbWUiLCJhbmltYXRlX29mZnNldCI6IiIsImRlbGF5X2FuaW1hdGUiOiIiLCJza2luX2FuaW1hdGUiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9jb2xvciI6IiIsImJhY2tncm91bmRfc3R5bGVfaW1hZ2VfdXJsIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9wb3NpdGlvbiI6IiIsImJhY2tncm91bmRfc3R5bGVfcmVwZWF0Ijoibm8tcmVwZWF0IiwiYmFja2dyb3VuZF9zdHlsZV9wYXJhbGxheF9zcGVlZCI6IiIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfb2Zmc2V0eCI6IiIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfb2Zmc2V0eSI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9zdHJlbmd0aCI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9heGlzIjoiYm90aCIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9vZmZzZXR4IjoiIiwiYmFja2dyb3VuZF9zdHlsZV9tb3VzZXBhcmFsbGF4X29mZnNldHkiOiIiLCJiYWNrZ3JvdW5kX3ZpZGVvX3NvdXJjZSI6InlvdXR1YmUiLCJiYWNrZ3JvdW5kX3ZpZGVvX3ZpZCI6IiIsImJhY2tncm91bmRfdmlkZW9fbXA0IjoiIiwiYmFja2dyb3VuZF92aWRlb193ZWJtIjoiIiwiYmFja2dyb3VuZF92aWRlb19vZ2ciOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX2Z1bGx3aWR0aCI6IjAiLCJ0aXRsZV9lbiI6IiJ9]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>121</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>145</id_group>
+            <params><![CDATA[eyJjbGFzcyI6InNoaXBtZW50IiwibGciOiIxMiIsIm1kIjoiMTIiLCJzbSI6IjEyIiwieHMiOiIxMiIsInNwIjoiMTIiLCJiYWNrZ3JvdW5kIjoiIiwicGFnZXMiOiIiLCJzcGVjaWZpYyI6ImFsbCIsImNvbnRyb2xsZXJpZHMiOiIiLCJza2luYW5pbWF0ZSI6IiIsImFuaW1hdGVvZmZzZXQiOiIiLCJkZWxheWFuaW1hdGUiOiIifQ==]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>137</id>
+            <id_column>121</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1414395731</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+        <field>
+            <id>147</id>
+            <active>1</active>
+            <position>3</position>
+            <hook_name><![CDATA[displayfooter]]></hook_name>
+            <params><![CDATA[eyJjbGFzcyI6InJvdyBmb290ZXItbmF2IiwiYWN0aXZlIjoxLCJob29rX25hbWUiOiJkaXNwbGF5Zm9vdGVyIiwiYW5pbWF0ZV9vZmZzZXQiOiIiLCJkZWxheV9hbmltYXRlIjoiIiwic2tpbl9hbmltYXRlIjoiIiwiYmFja2dyb3VuZF9zdHlsZSI6IiIsImJhY2tncm91bmRfc3R5bGVfY29sb3IiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX2ltYWdlX3VybCI6IiIsImJhY2tncm91bmRfc3R5bGVfcG9zaXRpb24iOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3JlcGVhdCI6Im5vLXJlcGVhdCIsImJhY2tncm91bmRfc3R5bGVfcGFyYWxsYXhfc3BlZWQiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X29mZnNldHgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX3BhcmFsbGF4X29mZnNldHkiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfc3RyZW5ndGgiOiIiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfYXhpcyI6ImJvdGgiLCJiYWNrZ3JvdW5kX3N0eWxlX21vdXNlcGFyYWxsYXhfb2Zmc2V0eCI6IiIsImJhY2tncm91bmRfc3R5bGVfbW91c2VwYXJhbGxheF9vZmZzZXR5IjoiIiwiYmFja2dyb3VuZF92aWRlb19zb3VyY2UiOiJ5b3V0dWJlIiwiYmFja2dyb3VuZF92aWRlb192aWQiOiIiLCJiYWNrZ3JvdW5kX3ZpZGVvX21wNCI6IiIsImJhY2tncm91bmRfdmlkZW9fd2VibSI6IiIsImJhY2tncm91bmRfdmlkZW9fb2dnIjoiIiwiYmFja2dyb3VuZF9zdHlsZV9mdWxsd2lkdGgiOiIwIiwidGl0bGVfZW4iOiIiLCJ0aXRsZV9mciI6IiIsInRpdGxlX2RlIjoiIiwidGl0bGVfYnIiOiIiLCJ0aXRsZV9pdCI6IiIsInRpdGxlX2VzIjoiIiwidGl0bGVfcnUiOiIiLCJ0aXRsZV9wbCI6IiIsInRpdGxlX2FyIjoiIn0=]]></params>
+            <fields objectName="LeoManageWidgetColumn" objectFile="LeoManageWidgetColumn.php" searchField="id_group">
+        <field>
+            <id>123</id>
+            <active>1</active>
+            <position>1</position>
+            <id_group>147</id_group>
+            <params><![CDATA[eyJjbGFzcyI6IiIsImxnIjoxMiwibWQiOiIxMiIsInNtIjoiMTIiLCJ4cyI6IjEyIiwic3AiOiIxMiIsImJhY2tncm91bmQiOiIiLCJwYWdlcyI6IiIsInNwZWNpZmljIjoiYWxsIiwiY29udHJvbGxlcmlkcyI6IiIsInNraW5hbmltYXRlIjoiIiwiYW5pbWF0ZW9mZnNldCI6IiIsImRlbGF5YW5pbWF0ZSI6IiJ9]]></params>
+            <fields objectName="LeoManagerWidgetContent" objectFile="LeoManagerWidgetContent.php" searchField="id_column">
+        <field>
+            <id>141</id>
+            <id_column>123</id_column>
+            <position>1</position>
+            <active>1</active>
+            <key_widget>1414398213</key_widget>
+            <module_name><![CDATA[]]></module_name>
+            <hook_name><![CDATA[]]></hook_name>
+            <type>0</type>
+            <params><![CDATA[W10=]]></params>
+        </field>
+            </fields>
+        </field>
+            </fields>
+        </field>
+    </fields>
+    <sql><![CDATA[CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_column` (
+  `id_column` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_group` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `params` text,
+  PRIMARY KEY (`id_column`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=129 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_content` (
+  `id_content` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_column` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `key_widget` int(10) unsigned NOT NULL,
+  `module_name` varchar(64) NOT NULL,
+  `hook_name` varchar(64) NOT NULL,
+  `type` int(1) unsigned DEFAULT NULL,
+  `params` text,
+  PRIMARY KEY (`id_content`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=147 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_leomanagewidget_group` (
+  `id_leomanagewidget_group` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_shop` int(10) unsigned NOT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `active` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `hook_name` varchar(64) NOT NULL,
+  `type` int(1) unsigned DEFAULT NULL,
+  `params` text,
+  PRIMARY KEY (`id_leomanagewidget_group`,`id_shop`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=151 DEFAULT CHARSET=utf8;
+
+]]></sql>
+    <hooks>
+        <hook module="leomanagewidgets" hook="displayRightColumn" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayLeftColumn" position="10" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayHome" position="3" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayHeader" position="35" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayTop" position="3" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayRightColumnProduct" position="3" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayFooterProduct" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayFooter" position="5" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayProductTabContent" position="2" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayTopColumn" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayNav" position="4" exceptions=""/>
+        <hook module="leomanagewidgets" hook="actionShopDataDuplication" position="3" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displaySlideshow" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="topNavigation" position="3" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayBottom" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayContentBottom" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayFootNav" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayFooterTop" position="1" exceptions=""/>
+        <hook module="leomanagewidgets" hook="displayFooterBottom" position="1" exceptions=""/>
+    </hooks>
+</dataSample>

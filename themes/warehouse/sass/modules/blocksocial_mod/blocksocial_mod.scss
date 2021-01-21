@@ -1,0 +1,54 @@
+@import "compass";
+@import "theme_variables";
+/*******************************************************************
+					Blocksocial mod styles
+********************************************************************/
+header .nav{
+	.social_block_mod {
+		float: left;
+		li{ height: 24px;
+			margin-right: 3px;
+		 a{
+		 	width: 24px;
+		 	height: 24px;
+		 	line-height: 24px;
+		 	font-size: 12px;
+		 }}
+	}
+}
+.social_block_mod {
+	ul{margin-bottom: 0px; margin-top: -6px;}
+
+li {border: none; float: left; margin-right: 6px; margin-bottom: 0px;	margin-top: 6px; list-style-type: none; padding: 0px; height: 32px;}
+li a{ display: block; font-family: $font-icon; 
+	width: 32px;
+	height: 32px;
+	font-size: 16px;
+	color: $light-text-color!important;
+	line-height: 33px;
+	display: block;
+	text-align: center;
+	background: #99999b;
+	@include border-radius(50px);
+	outline: none !important; 
+	&:hover{text-decoration: none;} 
+}
+
+
+li.facebook a { &:before {content: "\F09A"; } &:hover{background: #3b5998!important; } }
+li.twitter a { &:before {content: "\F099";} &:hover{background: #23c3fd!important; } }
+li.rss a { &:before {content: "\F09E";} &:hover{background: #f69838!important;} }
+li.youtube a { &:before {content: "\F167";} &:hover{background: #e82a34!important; } }
+li.vimeo a { &:before {content: "\f194"; position: relative; left: 1px;} font-family: $font-warehouse; position: relative; top: -1px; &:hover{background: #85c6fc!important;} }
+li.pinterest a { &:before {content: "\F0D2";} &:hover{background: #cb2027!important; } }
+li.tumblr a { &:before {content: "\F173";} &:hover{background: #425e75!important; } }
+li.google a{ &:before {content: "\F0D5";} &:hover{background: #c73e2e!important; } }
+li.instagram a { &:before {content: "\F16D";} &:hover{background: #517fa3!important; } }
+li.flickr a { &:before {content: "\F16E";} &:hover{background: #517fa3!important;;} }
+
+li:last-child{margin-right: 0px;}
+
+}
+
+#left_column .social_block_mod{width: auto}
+#left_column .social_block_mod ul{list-style-type: none;}

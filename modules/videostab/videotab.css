@@ -1,0 +1,9 @@
+.videotab_video{
+	margin-bottom: 20px;
+	}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+

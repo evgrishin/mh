@@ -1,0 +1,21 @@
+.cityname{
+  font-size: 14pt;
+  color: #e85222;
+  font-weight: bold;
+  cursor: pointer;
+  cursor: hand;
+  padding-top:5px;
+}
+div.cityname span {
+  position: relative;
+  display: inline-block;
+  right: -3px;
+  margin-right: -17px;
+  padding-right: 17px;
+  height: 1em;
+  background: url('../img/desc.gif') 0 50% no-repeat;
+  cursor: pointer;
+  cursor: hand;
+  vertical-align: middle;
+}
+

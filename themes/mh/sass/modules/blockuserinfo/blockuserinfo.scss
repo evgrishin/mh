@@ -1,0 +1,29 @@
+@import "compass";
+@import "theme_variables";
+
+.header_user_info {
+	.popup-title{
+	  display: none;
+	}
+	ul {
+		> li {
+			display: inline-block;
+			padding: 20px 0;
+			line-height: 13px;
+	        a {
+	        	padding: 0 15px;
+	        	margin: 0;
+	        	@include rtl-border-left(#ebebeb);
+		        @include rtl-border-style(none,none,none,solid);
+		        @include rtl-border-width(0,0,0,1px);
+	        }
+	        &.first {
+	        	a {
+	        		@include rtl-border-left(transparent);
+			        @include rtl-border-style(none,none,none,solid);
+			        @include rtl-border-width(0,0,0,1px);
+	        	}
+	        }
+		}
+	}
+}

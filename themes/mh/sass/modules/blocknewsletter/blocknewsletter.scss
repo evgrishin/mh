@@ -1,0 +1,65 @@
+@import "compass";
+@import "theme_variables";
+
+/* Block newsletter */
+#columns #newsletter_block_left {	 
+	.success_inline, .warning_inline {
+		@include rtl-text-align-left();
+		padding: 1px 0 0 0;
+		margin-bottom: -19px;	
+	}
+	.success_inline	{
+		color: #418B19;
+		margin-bottom: 15px;
+	}
+	.warning_inline {
+		color: #f13340;
+		margin-bottom: 15px;
+	}
+}
+
+#newsletter_block_left {
+	@include rtl-padding(17px,0, 17px,17px);
+	h3 {
+        @include rtl-float-left();
+        @include rtl-margin(4px,30px,0,0);
+        font-family: $font-family-for;
+        display: none;
+    }
+	form{
+		> div {	
+			position: relative;
+			input[type="text"]{  
+				border: none;
+				@include rounded-corners (0);
+				height: 36px;
+				background: $white;
+				@include box-shadow(none);
+			}
+			.btn{
+				position: absolute;
+				top: 0; 
+				height: 36px;
+				color: $white;
+				background: $theme-color-default;
+				font-size: $font-size-base + 3;
+				text-transform: uppercase;
+				border: none;
+				padding: 0 25px;
+				@include rtl-right(0);
+				@include border-bottom-radius(2px);
+				@include border-right-radius(2px);
+				@include border-left-radius(0);
+			}
+		}
+	}
+	.warning_inline { 
+		color: #f13340;  
+		clear: both;
+		margin-bottom: 15px;
+	}
+	.success_inline	{
+		color: #418B19;
+		margin-bottom: 15px;
+	}
+}

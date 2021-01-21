@@ -1,0 +1,71 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.ac_results {
+  background: white;
+  border: 1px solid #ebebeb;
+  width: 271px;
+  margin-top: -1px;
+}
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+.ac_results li.ac_odd {
+  background: white;
+}
+
+#search_block_top {
+
+  bottom: 10px;
+  right: 30px;
+}
+.rtl #search_block_top {
+  left: 30px;
+  right: auto;
+}
+
+form#searchbox {
+  width: 340px;
+  background: white;
+}
+form#searchbox label {
+  color: #252525;
+}
+form#searchbox input.search_query {
+  max-width: 315px;
+  background: transparent;
+  color: #5c5c5c;
+  height: 28px;
+  margin: 4px 0;
+  padding: 6px 3px;
+}
+form#searchbox button {
+  float: left;
+  background: transparent;
+  border: none;
+  width: 24px;
+  height: 28px;
+  text-align: center;
+}
+.rtl form#searchbox button {
+  float: right;
+}
+form#searchbox button:hover {
+  color: #3dc4ba;
+}

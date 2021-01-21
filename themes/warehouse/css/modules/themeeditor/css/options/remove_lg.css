@@ -1,0 +1,5 @@
+@media (min-width: 1320px) {
+  ul.product_list .col-lg-15 {
+    width: 25%; }
+  ul.product_list .col-lg-3 {
+    width: 33.33333%; } }

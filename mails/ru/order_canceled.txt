@@ -1,0 +1,10 @@
+
+[{shop_url}] 
+
+Здравствуйте, {firstname} {lastname}, 
+
+Ваш заказ с кодом {order_name} в магазине
+{shop_name} отменён. 
+
+{shop_name} [{shop_url}] 
+

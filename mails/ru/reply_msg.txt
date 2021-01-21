@@ -1,0 +1,11 @@
+﻿
+[{shop_url}] 
+
+Здравствуйте, {firstname} {lastname}, 
+
+{reply} 
+
+На это сообщение отвечать не нужно. 
+
+{shop_name} [{shop_url}] 
+

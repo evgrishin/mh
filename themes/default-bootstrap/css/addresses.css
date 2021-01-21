@@ -1,0 +1,24 @@
+/*******************************************************
+				Addresses Styles
+********************************************************/
+/* line 9, ../sass/addresses.scss */
+#addresses #center_column .page-heading {
+  margin: 0 0 22px;
+}
+/* line 12, ../sass/addresses.scss */
+#addresses #center_column p {
+  margin: 0 0 13px;
+}
+/* line 15, ../sass/addresses.scss */
+#addresses #center_column p.p-indent {
+  margin: 0 0 27px;
+}
+
+/* line 24, ../sass/addresses.scss */
+.address li.address_update {
+  margin: 14px 0 6px 0;
+}
+/* line 26, ../sass/addresses.scss */
+.address li.address_update a {
+  margin: 0 10px 0 0;
+}

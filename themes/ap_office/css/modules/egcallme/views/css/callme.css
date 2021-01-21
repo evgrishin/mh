@@ -1,0 +1,18 @@
+.phone {
+  font-size: 18pt;
+  color: white;
+  line-height: normal;
+}
+.callme {
+  text-decoration: none;
+  color: #e85222;
+  border-bottom: 1px dotted #e85222;
+  font-size: 8pt;
+  line-height: normal;
+}
+
+.ddd {
+  margin: 0px 60px;
+  text-align: center;
+  height:65px;
+}

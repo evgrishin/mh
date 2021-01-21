@@ -1,0 +1,25 @@
+/* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info {
+  float: right;
+  border-left: 1px solid #515151;
+  border-right: 1px solid #515151;
+}
+/* line 7, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a {
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 8px 9px 11px 8px;
+  cursor: pointer;
+  line-height: 18px;
+}
+@media (max-width: 479px) {
+  /* line 7, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info a {
+    font-size: 11px;
+  }
+}
+/* line 17, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a:hover, .header_user_info a.active {
+  background: #2b2b2b;
+}

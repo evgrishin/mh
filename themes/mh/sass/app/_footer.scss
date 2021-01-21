@@ -1,0 +1,47 @@
+// footer.scss
+@import "vars/footer.vars";
+
+#footer {
+	.bullet li {
+		@include rtl-padding-left(0);
+		a:before {
+			content: "";
+		}
+		.fa {
+			color: $theme-color-default;
+			@include rtl-margin-right(3px);
+			min-width: 14px;
+			text-align: center;
+		}
+	}
+	.title_block {
+		color: $theme-color-default;
+    	font-family: $font-family-for;
+    	font-size: 12px;
+    	margin: 0 0 20px;
+	}
+	.footer-nav {
+		padding: 25px 0;
+		border-bottom: 1px solid #000;
+	}
+	.footer-copyright {
+	    color: $footer-color;
+	} 
+	.#{$block-selector} { 
+   		@include box-shadow(none); 
+   	}
+   	.footer-bottom {
+   		padding: 30px 20px;
+   		background: $footer-bottom-outsite-bg;
+   		a {
+   			color: $footer-bottom-color;
+   		}
+   	}
+   	.footer-center {
+	    margin: 0;
+	    background: #F6F6F6;
+	    margin-bottom: 17px;
+	    @include border-radius(2px);
+	}
+	.block {margin: 0;}
+}

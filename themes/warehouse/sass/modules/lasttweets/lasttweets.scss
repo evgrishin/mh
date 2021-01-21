@@ -1,0 +1,90 @@
+@import "compass";
+@import "theme_variables";
+/*******************************************************************
+					Last tweets styles
+********************************************************************/
+#twitter_block_module
+{
+	border-top: $main_border;
+	padding: 20px 0px;
+	.tw_title{
+		border-right: $main_border;
+		h4{
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 60px;
+			margin: 0px;
+			i{font-size: 24px; margin-right: 10px; position: relative; top: 2px;}
+			span{
+				@media (max-width: $screen-md) {
+					display: none;}
+				}
+			}
+		}
+		.tw_content{height: 60px; overflow: hidden; 	
+ul{margin: 0; padding: 0px; margin-left: 10px;
+	li{ height:  50px; margin: 5px 0; padding: 0px;}
+}
+			}
+.user, .tweet, .timePosted {
+
+}
+
+.tweet {
+margin: 0px;
+}
+
+.timePosted {
+
+
+   font-style: italic;
+
+}
+
+.user {
+  clear:left;
+}
+
+.user span {
+display: none;
+}
+
+.user img {
+	width: 50px;
+  margin-right:  10px;
+}
+
+.interact {
+  display: none;
+  float:left;
+  margin-top: -10px;
+}
+
+.interact a {
+  margin-left:5px;
+  float:left;
+  font-size: 0px;
+  &:before{
+  	font-size: 14px;
+  	font-family: $font-icon;
+  }
+}
+
+.twitter_reply_icon:before{
+content: "\F112";
+}
+.twitter_retweet_icon:before{
+content: "\F079";
+}
+.twitter_fav_icon:before{
+content: "\F005";
+}
+
+}
+/* Footer twitter */
+#footer #twitter_block_module {
+	border-bottom: 1px solid #CECECE;
+	padding-top: 0px;
+	border-top: none;
+	margin-bottom: 20px;
+}

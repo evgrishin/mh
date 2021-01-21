@@ -1,0 +1,182 @@
+/******************************************************************************
+						Home Page Slider
+*******************************************************************************/
+/* line 6, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 14px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  float: left;
+  /*****************************************************************************
+  						BXSlider Styles
+  ********************************************************************************/
+}
+@media (max-width: 767px) {
+  /* line 6, ../../../sass/modules/homeslider/homeslider.scss */
+  #homepage-slider {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+  }
+}
+/* line 21, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider #homeslider {
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 25, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .homeslider-container {
+  position: relative;
+}
+/* line 28, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .homeslider-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 33, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .homeslider-description {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 50px 50px;
+  cursor: pointer;
+}
+/* line 39, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .homeslider-description h2 {
+  font-size: 2.7em;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/* line 45, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .homeslider-description p {
+  width: 50%;
+  font-size: 1.15em;
+  line-height: 1.3em;
+  padding: 0.5em 0;
+  color: white;
+}
+/* line 52, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .homeslider-description button {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  /* line 33, ../../../sass/modules/homeslider/homeslider.scss */
+  #homepage-slider .homeslider-description {
+    padding: 20px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 768px) {
+  /* line 33, ../../../sass/modules/homeslider/homeslider.scss */
+  #homepage-slider .homeslider-description {
+    padding: 30px;
+    font-size: 0.7em;
+  }
+  /* line 63, ../../../sass/modules/homeslider/homeslider.scss */
+  #homepage-slider .homeslider-description p {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 480px) {
+  /* line 33, ../../../sass/modules/homeslider/homeslider.scss */
+  #homepage-slider .homeslider-description {
+    padding: 30px;
+    font-size: 0.5em;
+  }
+  /* line 70, ../../../sass/modules/homeslider/homeslider.scss */
+  #homepage-slider .homeslider-description p {
+    font-size: 1.7em;
+  }
+}
+/* line 79, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper a {
+  display: block;
+}
+/* line 82, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper img {
+  height: auto;
+}
+/* line 85, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-viewport {
+  width: 100%;
+  direction: ltr!important;
+}
+/* line 89, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+}
+/* line 92, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a {
+  top: auto;
+  margin-top: 0px;
+  font-size: 1em;
+  bottom: 10px;
+  outline: 0;
+  width: 52px;
+  height: 52px;
+  text-indent: -9999px;
+  z-index: 9999;
+  border: 2px solid white;
+  line-height: 18px;
+}
+/* line 104, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  height: 48px;
+  width: 48px;
+  display: block;
+  background: white;
+  content: ".";
+  opacity: 0.14;
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+/* line 117, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a:after {
+  display: block;
+  width: 48px;
+  height: 48px;
+  color: white;
+  text-indent: 0;
+  text-align: center;
+  font-size: 21px;
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 16px 0 0 0;
+}
+/* line 133, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
+  background: #898831;
+  opacity: 0.83;
+}
+/* line 139, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-prev {
+  right: 60px;
+  left: auto;
+}
+/* line 142, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-prev:after {
+  content: "\f053";
+}
+/* line 147, ../../../sass/modules/homeslider/homeslider.scss */
+#homepage-slider .bx-wrapper .bx-next:after {
+  content: "\f054";
+}
+
+/* line 156, ../../../sass/modules/homeslider/homeslider.scss */
+.ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  background: #898831;
+}

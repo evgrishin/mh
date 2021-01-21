@@ -1,0 +1,87 @@
+/* Responsive styling*/
+#iqitmegamenu-mobile {
+  display: none;
+  text-align: left; }
+  @media (max-width: 999px) {
+    #iqitmegamenu-mobile {
+      display: block; } }
+  #iqitmegamenu-mobile ul, #iqitmegamenu-mobile li {
+    list-style-type: none; }
+  #iqitmegamenu-mobile #iqitmegamenu-shower {
+    text-transform: uppercase;
+    padding: 12px 15px;
+    cursor: pointer;
+    line-height: 36px; }
+  #iqitmegamenu-mobile .iqitmegamenu-icon {
+    margin-right: 10px;
+    color: #000;
+    display: block;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+    width: 36px;
+    text-align: center;
+    cursor: pointer; }
+  #iqitmegamenu-mobile #iqitmegamenu-accordion {
+    list-style: none;
+    padding: 0px;
+    background: #fff;
+    overflow: hidden;
+    height: auto;
+    max-height: 0px;
+    margin: 0px;
+    -webkit-transition: all 0.5s ease;
+    -webkit-transition-delay: 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s; }
+    #iqitmegamenu-mobile #iqitmegamenu-accordion.showedmenu {
+      border: 1px solid #dddddd;
+      border-top: none;
+      padding: 12px;
+      max-height: 9999px;
+      -webkit-transition: all 0.5s ease;
+      -webkit-transition-delay: 0s;
+      -moz-transition: all 0.5s ease 0s;
+      -o-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s; }
+    #iqitmegamenu-mobile #iqitmegamenu-accordion > li {
+      border-bottom: 1px dashed #dddddd; }
+      #iqitmegamenu-mobile #iqitmegamenu-accordion > li:last-child {
+        border-bottom: none; }
+      #iqitmegamenu-mobile #iqitmegamenu-accordion > li > a {
+        text-transform: uppercase;
+        display: block;
+        padding: 10px 0; }
+      #iqitmegamenu-mobile #iqitmegamenu-accordion > li ul {
+        background-color: #f8f8f8;
+        display: none; }
+        #iqitmegamenu-mobile #iqitmegamenu-accordion > li ul a {
+          display: block;
+          padding: 10px 0;
+          border-top: 1px dashed #dddddd; }
+    #iqitmegamenu-mobile #iqitmegamenu-accordion div.responsiveInykator {
+      display: block;
+      background-color: #fff;
+      font-weight: bold;
+      font-size: 24px;
+      float: right;
+      padding: 6px 0;
+      position: relative;
+      top: 4px;
+      width: 32px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px dashed #dddddd; }
+    #iqitmegamenu-mobile #iqitmegamenu-accordion ul {
+      list-style: none;
+      padding: 0 0 0 0; }
+      #iqitmegamenu-mobile #iqitmegamenu-accordion ul li {
+        font-weight: normal;
+        cursor: auto;
+        padding: 0 0 0 7px; }
+    #iqitmegamenu-mobile #iqitmegamenu-accordion a {
+      text-decoration: none; }
+      #iqitmegamenu-mobile #iqitmegamenu-accordion a:hover {
+        text-decoration: none; }

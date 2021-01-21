@@ -1,0 +1,41 @@
+/**************************************************************************
+					Contact Page Styles
+**************************************************************************/
+.contact-title {
+  margin: -5px 0 27px 0;
+  line-height: 23px; }
+  .contact-title i {
+    font-size: 23px;
+    color: #c0c0c0;
+    padding: 0 8px 0 0; }
+
+.contact-form-box fieldset {
+  padding: 0px; }
+.contact-form-box label {
+  margin: 0 0 6px 0; }
+.contact-form-box .col-md-3 {
+  padding-left: 0; }
+  @media (max-width: 999px) {
+    .contact-form-box .col-md-3 {
+      padding-right: 0; } }
+.contact-form-box .col-md-9 {
+  padding-right: 0; }
+  @media (max-width: 999px) {
+    .contact-form-box .col-md-9 {
+      padding-left: 0; } }
+.contact-form-box #desc_contact0 {
+  display: none; }
+.contact-form-box .form-group {
+  margin-bottom: 7px; }
+.contact-form-box textarea {
+  height: 257px; }
+.contact-form-box .submit {
+  margin-top: 13px; }
+.contact-form-box select.form-control {
+  max-width: 270px;
+  width: 100%; }
+.contact-form-box input.form-control {
+  max-width: 270px; }
+@media (min-width: 1000px) and (max-width: 1319px) {
+  .contact-form-box div.uploader span.filename {
+    width: 114px; } }

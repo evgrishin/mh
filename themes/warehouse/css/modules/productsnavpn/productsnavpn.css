@@ -1,0 +1,14 @@
+/*******************************************************************
+				Products next/prev arrows  styles
+********************************************************************/
+#productsnavpn {
+  font-size: 20px;
+  position: relative;
+  top: -3px; }
+  #productsnavpn a {
+    color: #dddddd; }
+    #productsnavpn a:after {
+      content: "";
+      display: none; }
+    #productsnavpn a:hover {
+      color: #777; }

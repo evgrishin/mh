@@ -1,0 +1,27 @@
+.ajax_block_product {
+  -moz-transition: box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease; }
+  .ajax_block_product .button-container {
+    margin-top: 3px; }
+  .ajax_block_product:hover {
+    -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    padding-top: 9px;
+    padding-bottom: 9px; }
+
+.product_list.list .ajax_block_product:hover {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+  .product_list.list .ajax_block_product:hover .product-container {
+    border-color: transparent; }
+  .product_list.list .ajax_block_product:hover + li .product-container {
+    border-color: transparent; }
+
+.simpleblog-posts .post-item:hover {
+  -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15); }

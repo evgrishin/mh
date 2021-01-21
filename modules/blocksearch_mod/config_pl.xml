@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blocksearch_mod</name>
+	<displayName><![CDATA[Header search and custom content module]]></displayName>
+	<version><![CDATA[1.6]]></version>
+	<description><![CDATA[Adds a block with a quick search field and custom html content.]]></description>
+	<author><![CDATA[IQIT-COMMERCE.COM]]></author>
+	<tab><![CDATA[search_filter]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

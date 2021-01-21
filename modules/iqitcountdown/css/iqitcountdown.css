@@ -1,0 +1,79 @@
+.price-countdown{
+border-top: 1px solid #cecece;
+padding-top: 20px;
+margin-top: 20px;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+.price-countdown .count-down-timer span.countdown-time{
+background: #282828;
+background: -moz-linear-gradient(top,  #282828 0%, #444444 50%, #282828 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#282828), color-stop(50%,#444444), color-stop(100%,#282828));
+background: -webkit-linear-gradient(top,  #282828 0%,#444444 50%,#282828 100%);
+background: -o-linear-gradient(top,  #282828 0%,#444444 50%,#282828 100%);
+background: -ms-linear-gradient(top,  #282828 0%,#444444 50%,#282828 100%);
+background: linear-gradient(to bottom,  #282828 0%,#444444 50%,#282828 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282828', endColorstr='#282828',GradientType=0 );
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color: #fff;
+padding: 3px 4px;
+font-size: 10px;
+display: inline-block;
+}
+.price-countdown .count-down-timer span.countdown-time-group{
+display: inline-block !important;
+width: 28px;	
+font-size: 10px;
+text-align: center;
+}
+.price-countdown .count-down-timer span.countdown-time-group *{
+display: inline !important;
+}
+.price-countdown .price-countdown-title{
+margin-bottom: 10px;
+display: block;	
+}
+.product-image-container .price-countdown{
+border-top: none;
+zoom: 1;
+filter: alpha(opacity=90);
+opacity: 0.9;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: opacity 0.3s ease;
+transition: opacity 0.3s ease;
+background: #fff;
+padding: 10px 0;
+font-size: 11px;
+width: 100%;
+text-align: center;
+height: 65px;
+display: none;
+overflow: hidden;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+
+.product-container.hovered .price-countdown{
+display: block;
+
+}
+
+#buy_block .price-countdown-title{
+display: inline-block;
+margin-right: 5px;
+}
+#buy_block .count-down-timer{
+display: inline-block;
+vertical-align: middle;	
+}

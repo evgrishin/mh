@@ -1,0 +1,30 @@
+@import "compass";
+@import "theme_variables";
+/*******************************************************************
+					Manufacturer slider styles
+********************************************************************/
+#footer1 #manufacturers_slider{
+	border-bottom: 1px solid #cecece;
+	margin: 0px 10px;
+}
+#manufacturers_slider { padding: 20px 0; border-top: 1px solid $base-border-color; 
+	.slick-list{
+		 li{
+		 	padding: 0 9px;
+		 }
+	}
+	li{ list-style-type: none; padding-bottom: 0px !important;}
+	li a{	
+		-webkit-backface-visibility:hidden;
+		backface-visibility:hidden;
+		img{
+			margin: 0 auto;
+			opacity: 0.6;
+		}
+		&:hover{
+			img{
+				opacity: 1.0;
+			}
+		}}
+		
+	}

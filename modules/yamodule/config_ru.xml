@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>yamodule</name>
+	<displayName><![CDATA[Y.CMS Prestashop]]></displayName>
+	<version><![CDATA[1.3.9]]></version>
+	<description><![CDATA[Яндекс.Деньги, Яндекс.Касса, Яндекс.Метрика, Яндекс.Маркет, Заказы в Маркете]]></description>
+	<author><![CDATA[Яндекс.Деньги]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Действительно удалить модуль?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

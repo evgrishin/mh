@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>pm_multiplefeatures</name>
+	<displayName><![CDATA[Multiple Features]]></displayName>
+	<version><![CDATA[1.3.4]]></version>
+	<description><![CDATA[Allow to define multiple features values per features]]></description>
+	<author><![CDATA[Presta-Module]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

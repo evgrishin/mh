@@ -1,0 +1,74 @@
+@import "compass";
+@import "theme_variables";
+#languages-block-top {
+	float: right;
+	position: relative;
+	@media (max-width: $screen-sm-max) { 
+		float: left;
+	}		
+	img{vertical-align: baseline;}											
+	span.firstWord {
+		display: none;
+	}
+	div.current {
+		cursor: pointer;
+		border-left: 1px solid transparent;
+		border-right: 1px solid transparent;
+				&:hover{color: $link-hover-color;}
+
+		&.active {
+			background: #fff;
+			@include box-shadow(0 2px 10px rgba(0,0,0, 0.15));
+			border: 1px solid $base-border-color;
+			border-bottom-color: #fff;
+			line-height: 30px;
+			position: relative;
+			top: -3px;
+			div{
+				background: #fff;
+			}
+		}
+		div{
+			
+			position: relative;
+			z-index: 5;
+			padding: 0px 10px;
+
+			&:after {
+				content: "\F107";
+				font-family: $font-icon;
+				padding-left: 2px;
+			}
+		}
+		.cur-label {
+			// max 479px
+			@media (max-width: $screen-ms-max) {
+					display: none;
+				}
+		}
+	}
+	ul {
+		display: none;
+		position: absolute;
+		top: 26px;
+		right: 0;
+		min-width: 120%;
+		padding: 15px;
+		@include box-shadow(0 2px 10px rgba(0,0,0, 0.15));
+		border: 1px solid $base-border-color;
+		background: #fff;
+		z-index: 2;
+		@media (max-width: $screen-xs-max) {
+			left: 0px;
+			right: auto;
+			min-width: 250%;
+		}
+		li {
+			line-height: 16px;
+			a,
+			> span {
+
+			}
+		}
+	}
+}

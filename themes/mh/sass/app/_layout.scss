@@ -1,0 +1,102 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+ // layout.scss
+
+@import "vars/layout.vars";
+body{
+    &.layout-boxed-md{
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: transparent;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: transparent;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+    }
+} 
+
+.container{
+    position: relative;
+    background: $white;
+}
+
+/*
+* HEADER 
+*/
+
+#topbar {
+    height: $topbar-height;
+    font-size: $topbar-font-size;
+    background: $topbar-outside-bg;
+    line-height: 36px;
+    .container > .inner{
+        @include container-layout-variant($topbar-color, $topbar-bg); 
+    }
+    .links{  
+        li{
+            &.first {
+                a{@include rtl-margin-left(0);}
+            }
+        }    
+    } 
+    a{
+        color: $topbar-color;
+        &:hover{color: $link-hover-color;}
+    }
+      
+}
+
+.header-container {
+    background: $headermain-outside-bg;
+}
+#header-main{
+    background: $headermain-outside-bg;
+    clear: both;
+    .container {
+        border-top: 1px solid $black;
+        > .inner{
+            @include container-layout-variant($headermain-color, $headermain-bg); 
+            a.btn{           
+                &:hover{color: $white;}
+            }
+        }
+    }
+    &.mini-navbar{}
+}
+#columns { position: relative; z-index: 1;}
+
+/* FOOTER */
+#footer{
+    @include clearfix();
+    background: $footer-outside-bg;
+    position: relative;
+    z-index: 0; 
+    .container > .inner{
+        @include container-layout-variant($footer-color, $footer-bg);   
+    } 
+    a{
+        color: $footer-color;
+        &:hover{
+            color: $link-hover-color;
+        }
+    }
+}

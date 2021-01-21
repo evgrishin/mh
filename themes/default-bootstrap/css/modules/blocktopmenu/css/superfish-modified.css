@@ -1,0 +1,351 @@
+/*** ESSENTIAL STYLES ***/
+/* line 4, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-contener {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+/* line 11, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu,
+.sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 16, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  border-bottom: 3px solid #e9e9e9;
+  background: #f6f6f6;
+}
+@media (max-width: 767px) {
+  /* line 16, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu {
+    display: none;
+  }
+}
+
+/* line 26, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu ul {
+  position: absolute;
+  top: -999em;
+  background: white;
+}
+@media (max-width: 767px) {
+  /* line 26, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu ul {
+    position: relative;
+  }
+}
+
+/* line 34, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu ul li {
+  width: 100%;
+}
+
+/* line 37, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li:hover {
+  visibility: inherit;
+  /* fixes IE7 'sticky bug' */
+}
+
+/* line 40, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li {
+  float: left;
+  border-right: 1px solid #d6d4d4;
+  margin-bottom: -3px;
+}
+@media (max-width: 767px) {
+  /* line 40, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li {
+    float: none;
+    position: relative;
+    border-right: none;
+  }
+  /* line 48, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li span {
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+  }
+  /* line 55, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li span:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    font-size: 26px;
+  }
+  /* line 61, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li span.active:after {
+    content: "\f068";
+  }
+}
+/* line 67, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > a {
+  font: 600 18px/22px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #484848;
+  display: block;
+  padding: 17px 20px;
+  border-bottom: 3px solid #e9e9e9;
+}
+/* line 77, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li.sfHover > a,
+.sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
+  background: #898831;
+  border-bottom-color: #666666;
+  color: white;
+}
+
+/* line 83, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li a {
+  display: inline-block;
+  position: relative;
+  color: #777777;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* line 91, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li a:before {
+  content: "\f105";
+  display: inline-block;
+  font-family: "FontAwesome";
+  padding-right: 10px;
+}
+/* line 97, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li a:hover {
+  color: #9fa284;
+}
+
+/* line 101, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li ul {
+  display: none;
+  left: 0;
+  top: 59px;
+  /* match top ul list item height */
+  z-index: 99;
+  padding: 12px 0px 18px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 5px 13px;
+  -moz-box-shadow: rgba(0, 0, 0, 0) 0px 5px 13px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 5px 13px;
+}
+@media (max-width: 767px) {
+  /* line 101, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu li ul {
+    top: 0;
+  }
+}
+
+/* line 112, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li ul {
+  position: static;
+  display: block !important;
+  opacity: 1 !important;
+  background: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+}
+
+/* line 119, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li ul {
+  padding: 0 0 0 20px;
+}
+
+/* line 122, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li ul {
+  width: 220px;
+}
+
+/* line 126, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+  top: -999em;
+}
+
+/* line 130, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+  left: 200px;
+  /* match ul width */
+  top: 0;
+}
+
+/* line 135, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+  top: -999em;
+}
+
+/* line 139, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+  left: 200px;
+  /* match ul width */
+  top: 0;
+}
+
+/* line 143, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul {
+  padding: 26px 30px 31px;
+  width: 100%;
+}
+/* line 147, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li > a {
+  text-transform: uppercase;
+  font: 600 16px/20px "Open Sans", sans-serif;
+  color: #9fa284;
+}
+/* line 151, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li > a:hover {
+  color: #515151;
+}
+
+/* line 157, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li {
+  float: left;
+  width: 20%;
+  padding-right: 15px;
+}
+@media (max-width: 767px) {
+  /* line 157, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li {
+    width: 50%;
+  }
+}
+@media (max-width: 479px) {
+  /* line 157, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 169, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li.first-in-line-lg {
+    clear: left;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 174, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li.first-in-line-xs {
+    clear: left;
+  }
+}
+
+/* line 179, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li.category-thumbnail {
+  width: 100% !important;
+  float: none;
+  clear: both;
+  overflow: hidden;
+  padding-right: 0;
+}
+/* line 185, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li.category-thumbnail > div {
+  float: left;
+  padding-left: 10px;
+  width: 33.333%;
+}
+@media (max-width: 479px) {
+  /* line 185, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li.category-thumbnail > div {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+/* line 195, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li.category-thumbnail > div:first-child {
+  padding-left: 0;
+}
+/* line 198, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li.category-thumbnail > div img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 204, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.cat-title {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 204, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title {
+    display: block;
+    font: 600 18px/22px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #484848;
+    display: block;
+    padding: 17px 20px;
+    border-bottom: 3px solid #e9e9e9;
+    background: #f6f6f6;
+    position: relative;
+  }
+  /* line 216, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title:hover {
+    background: #898831;
+    border-bottom-color: #666666;
+    color: white;
+  }
+  /* line 221, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title:after {
+    display: block;
+    font-family: "FontAwesome";
+    content: "\f067";
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    font-size: 26px;
+  }
+  /* line 230, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title.active:after {
+    content: "\f068";
+  }
+}
+
+/* line 237, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li.sf-search {
+  border: none;
+}
+/* line 239, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li.sf-search input {
+  display: inline;
+  padding: 0 13px;
+  height: 30px;
+  line-height: 30px;
+  background: white;
+  margin: 13px 10px 0 0;
+  font-size: 13px;
+  color: #9c9b9b;
+  border: 1px solid #d6d4d4;
+}
+
+/* line 254, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+#block_top_menu .category-thumbnail {
+  clear: both;
+  width: 100%;
+  float: none;
+}
+/* line 258, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+#block_top_menu .category-thumbnail div {
+  float: left;
+  width: 33.33333%;
+}
+/* line 261, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+#block_top_menu .category-thumbnail div img {
+  max-width: 100%;
+}
+/* line 266, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+#block_top_menu li.category-thumbnail {
+  padding-right: 0;
+}

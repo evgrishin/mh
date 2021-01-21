@@ -1,0 +1,76 @@
+@import "compass";
+@import "theme_variables";
+/*******************************************************************
+					fblike box
+********************************************************************/
+#fblike-box {
+	position: fixed;
+	top: 260px;
+	left: 0;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	z-index: 5101;
+}
+#fblike_inner {
+	position: fixed;
+	top: 260px;
+	left: -300px;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	background: #3b5999;
+	padding: 2px;
+}
+#fblike-box.right_fb{
+	left: auto;
+	right: 0;
+	#fblike_inner {
+		left: auto;
+		right: -300px;
+	}
+	&:hover{
+		right: 296px;
+		left: auto;
+		#fblike_inner {
+			left: auto;
+			right: 0;
+		}
+	}
+}
+
+#fblike-box:hover {
+	left: 296px;
+}
+#fblike-box:hover #fblike_inner {
+	left: 0;
+}
+#fblike_inner {
+	.fb-like-box-inner{
+		background: #ffffff;
+	}
+}
+
+#fblike-box .belt {
+	position: relative;
+	z-index: 0;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	width: 48px;
+	height: 48px;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+	font-size: 21px;
+	background: #425f9c;
+	border: 3px solid transparent;
+	border-left: none;
+	@include transition(all 0.3s ease);
+}
+
+
+

@@ -1,0 +1,78 @@
+.product-block {
+    .action{
+        @include opacity(0);
+        position: absolute;
+        top: 50%;
+        @include scale(0);
+        @include transition(all 0.4s ease 0s);
+        z-index: 9;
+        width: 100%;
+    }
+    .functional-buttons{
+        @include opacity(0);
+        @include transition(all 0.5s ease 0s);
+        visibility: hidden;
+        width: 100%;
+        bottom:0;
+        padding:0 10px 10px 10px;
+        position: absolute;
+        z-index: 99;
+        background: $white;
+
+        > div{
+            @include rtl-float-left();
+            @include rtl-margin-right(5px);
+        }
+    }
+    &:hover{
+        .action{
+            @include opacity(1);
+            @include scale(1,1);
+        }
+        .functional-buttons{
+            @include opacity(1);
+            visibility: visible;
+            bottom: -42px;
+            @include box-shadow(0 1px 1px #c3c3c3);
+        }
+    }
+}
+
+.effect {    
+    a{
+        position: relative;
+        display: inline-block;
+        max-width: 100%;
+        &:before{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            @include transition (all 0.3s ease-out 0s);
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            background-color: rgba(255, 255, 255, 0.1);
+            @include transition (all 0.3s ease-out 0s);
+        }
+        &:hover:before,
+        &:hover:after{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+.ImageWrapper {display: block;overflow: hidden;position: relative;}
+.ImageWrapper .ImageOverlayS {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);height: 100%;display: block;top: 0;opacity: 0;position: absolute;left: 0;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;width: 100%;-webkit-transform: rotate(180deg) scale(0);-moz-transform: rotate(180deg) scale(0);-ms-transform: rotate(180deg) scale(0);-o-transform: rotate(180deg) scale(0);transform: rotate(180deg) scale(0);}
+.ImageWrapper:hover .ImageOverlayS {-webkit-transform: rotate(0deg) scale(1);-moz-transform: rotate(0deg) scale(1);-ms-transform: rotate(0deg) scale(1);-o-transform: rotate(0deg) scale(1);transform: rotate(0deg) scale(1);opacity: 1;}

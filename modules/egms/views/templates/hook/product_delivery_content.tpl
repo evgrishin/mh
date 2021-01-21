@@ -1,0 +1,1 @@
+<section id="tab7" class="tab-pane page-product-box active">{$content}</section>

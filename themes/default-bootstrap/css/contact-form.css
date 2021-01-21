@@ -1,0 +1,91 @@
+/**************************************************************************
+					Contact Page Styles
+**************************************************************************/
+/* line 8, ../sass/contact-form.scss */
+.contact-title {
+  margin: -5px 0 0px 0;
+  line-height: 23px;
+}
+/* line 11, ../sass/contact-form.scss */
+.contact-title i {
+  font-size: 23px;
+  color: #c0c0c0;
+  padding: 0 8px 0 0;
+}
+
+/* line 18, ../sass/contact-form.scss */
+.contact-form-box {
+  padding: 23px 0 0 0;
+  margin: 0 0 30px 0;
+  background: url(../img/contact-form.png) repeat-x white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 5px 13px;
+  -moz-box-shadow: rgba(0, 0, 0, 0) 0px 5px 13px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 5px 13px;
+}
+/* line 23, ../sass/contact-form.scss */
+.contact-form-box fieldset {
+  padding: 0 19px 21px 19px;
+  background: url(../img/form-contact-shadow.png) center bottom no-repeat;
+  background-size: contain;
+}
+/* line 28, ../sass/contact-form.scss */
+.contact-form-box label {
+  margin: 0 0 6px 0;
+}
+/* line 31, ../sass/contact-form.scss */
+.contact-form-box .page-subheading {
+  padding-left: 0px;
+  border: none;
+  margin-bottom: 0;
+}
+/* line 37, ../sass/contact-form.scss */
+.contact-form-box .col-md-3 {
+  padding-left: 0;
+}
+@media (max-width: 991px) {
+  /* line 37, ../sass/contact-form.scss */
+  .contact-form-box .col-md-3 {
+    padding-right: 0;
+  }
+}
+/* line 43, ../sass/contact-form.scss */
+.contact-form-box .col-md-9 {
+  padding-right: 0;
+}
+@media (max-width: 991px) {
+  /* line 43, ../sass/contact-form.scss */
+  .contact-form-box .col-md-9 {
+    padding-left: 0;
+  }
+}
+/* line 49, ../sass/contact-form.scss */
+.contact-form-box #desc_contact0 {
+  display: none;
+}
+/* line 52, ../sass/contact-form.scss */
+.contact-form-box .form-group {
+  margin-bottom: 7px;
+}
+/* line 55, ../sass/contact-form.scss */
+.contact-form-box textarea {
+  height: 257px;
+}
+/* line 58, ../sass/contact-form.scss */
+.contact-form-box .submit {
+  margin-top: 13px;
+}
+/* line 61, ../sass/contact-form.scss */
+.contact-form-box select.form-control {
+  max-width: 270px;
+  width: 100%;
+}
+/* line 65, ../sass/contact-form.scss */
+.contact-form-box input.form-control {
+  max-width: 270px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 69, ../sass/contact-form.scss */
+  .contact-form-box div.uploader span.filename {
+    width: 114px;
+  }
+}

@@ -1,0 +1,96 @@
+/* line 3, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top {
+  padding-top: 50px;
+}
+/* line 5, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top #searchbox {
+  float: left;
+  width: 100%;
+}
+/* line 9, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search {
+  background: #898831;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  color: white;
+  width: 50px;
+  text-align: center;
+  padding: 10px 0 11px 0;
+}
+/* line 20, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search span {
+  display: none;
+}
+/* line 23, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search:before {
+  content: "\f002";
+  display: block;
+  font-family: "FontAwesome";
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+}
+/* line 31, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search:hover {
+  color: #6f6f6f;
+}
+/* line 35, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top #search_query_top {
+  display: inline;
+  padding: 13px 60px 13px 13px;
+  height: 45px;
+  background: #fbfbfb;
+  margin-right: 1px;
+}
+
+/* line 44, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results {
+  background: white;
+  border: 1px solid #d6d4d4;
+  width: 271px;
+  margin-top: -1px;
+}
+/* line 49, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+/* line 55, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li.ac_odd {
+  background: white;
+}
+/* line 58, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li:hover, .ac_results li.ac_over {
+  background: #fbfbfb;
+}
+
+/* line 64, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox {
+  position: relative;
+}
+/* line 66, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox label {
+  color: #9fa284;
+}
+/* line 69, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox input#search_query_block {
+  margin-right: 10px;
+  max-width: 222px;
+  margin-bottom: 10px;
+  display: inline-block;
+  float: left;
+}
+/* line 76, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox .button.button-small {
+  float: left;
+}
+/* line 78, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox .button.button-small i {
+  margin-right: 0;
+}

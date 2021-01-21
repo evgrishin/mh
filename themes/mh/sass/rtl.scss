@@ -1,0 +1,79 @@
+@import "compass";
+@import "theme_variables";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@import "bootstrap/rtl/grid";
+// Utility classes
+@import "bootstrap/rtl/utilities";
+@import "bootstrap/rtl/responsive-utilities";
+
+/********************************************************
+			Right to Left Styles
+********************************************************/
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+.no-padding{padding: 0;}
+.no-margin{margin: 0;}
+
+#layer_cart {right: 15px !important;}
+// paneltool
+.panelbutton {
+    -webkit-box-shadow: -3px 1px 2px #888888;
+    box-shadow: -3px 1px 2px #888888;
+ }
+.fancybox-margin {margin-right: 0px!important;}
+
+.editortool .label-customize:hover {
+    background-position: 0 -111px;
+}
+.block .list-block li {
+	a {
+		&:before {
+			content: "\f104";
+		}
+	}
+}
+.accessories-block ul li{float: right !important;}
+
+//step 5 - paiement
+p.payment_module {
+  a {
+    &.bankwire {
+      background-position: 477px 12px;
+    }
+    &.cheque {
+      background-position: 477px 15px;
+    }
+    &.cash {
+      background-position: 477px 15px;
+    }
+  }
+}
+
+//==============
+.leo-megamenu .navbar-nav > li.aligned-left .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.leo-megamenu .dropdown:hover > .dropdown-menu, 
+.leo-megamenu .dropdown:focus > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.leo-megamenu .dropdown-submenu:hover > .dropdown-menu {right: 100%;}
+
+.widget .owl-theme .owl-controls .owl-buttons div.owl-prev {left: 0;right: auto;}
+.widget .owl-theme .owl-controls .owl-buttons div.owl-next {left: 35px;right: auto;}
+
+#newsletter_block_left form > div .btn {
+  @include border-top-radius(2px);
+  @include border-left-radius(2px);
+  @include border-right-radius(0);
+}

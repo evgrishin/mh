@@ -1,0 +1,23 @@
+/*******************************************************************
+					Manufacturer slider styles
+********************************************************************/
+#footer1 #manufacturers_slider {
+  border-bottom: 1px solid #cecece;
+  margin: 0px 10px; }
+
+#manufacturers_slider {
+  padding: 20px 0;
+  border-top: 1px solid #dddddd; }
+  #manufacturers_slider .slick-list li {
+    padding: 0 9px; }
+  #manufacturers_slider li {
+    list-style-type: none;
+    padding-bottom: 0px !important; }
+  #manufacturers_slider li a {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+    #manufacturers_slider li a img {
+      margin: 0 auto;
+      opacity: 0.6; }
+    #manufacturers_slider li a:hover img {
+      opacity: 1.0; }

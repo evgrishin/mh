@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+NEW Callback
+--------------------------- 
+Shop: {shop_name} 
+Phone: {phone}
+First name: {fname}
+Last name: {lname}
+Message {message}
+
+{shop_name} [{shop_url}] 
+

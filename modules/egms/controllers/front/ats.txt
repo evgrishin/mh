@@ -1,0 +1,48 @@
+<?php
+
+
+class egmsatsModuleFrontController // extends Module
+{
+    private $xml;
+
+
+    public function initContent()
+    {
+                $postdata = file_get_contents("php://input");
+
+                if($postdata!=''){
+                    $this->setXML($postdata);
+
+                    $state_x = '//xsi:Event/xsi:eventData/xsi:calls/xsi:call/xsi:state';
+                    $phone_x = '//xsi:Event/xsi:eventData/xsi:calls/xsi:call/xsi:remoteParty/xsi:address';
+
+                    $state = $this->getVal($state_x);
+                    $phone_num = $this->getVal($phone_x);
+
+                    $param = array('{phone}'    => $phone_num);
+                    $text = Configuration::get('EGMS_VIBER_NEW_CALL');
+                    $text = Tools::replaceKeywords($param, $text, '');
+                    $text = Meta::replaceForCEOWord($text);
+                    if($state == 'Detached') {
+                        Tools::viberSend('message', $text);
+                    }
+                    die("ok");
+                }
+
+    }
+
+    function getVal($path){
+        $xmldoc = $this->xml;
+        foreach ($xmldoc->xpath($path) as $string) {
+            return $string ;
+        }
+    }
+
+    function setXML($postdata){
+        $this->xml = new SimpleXMLElement($postdata);
+    }
+
+}
+
+
+?>

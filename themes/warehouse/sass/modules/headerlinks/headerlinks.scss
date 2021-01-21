@@ -1,0 +1,18 @@
+@import "compass";
+@import "theme_variables";
+/* block top links */
+ul#header_links {
+	list-style-type: none;
+	float: left;
+	@media (max-width: $screen-sm-max) { 
+		display:none; 
+	}
+	li{
+	float: left;
+	padding: 0px 10px;
+	}
+	a {
+	text-align: center;
+	}
+}
+

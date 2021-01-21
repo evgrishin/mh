@@ -1,0 +1,153 @@
+
+// Box Modules 
+// ========================================================================
+$block-module-margin-bottom: 			20px !default;
+$block-module-padding  :				15px !default;
+$block-module-border-color: 			$border-color  !default;
+
+$block-module-heading-border: 			none !default;
+$block-module-heading-transform:        none !default;
+$block-module-heading-line-height:      normal !default;
+$block-module-heading-font-family:    	$font-family-secondary !default;
+$block-module-heading-bg:				$white !default;
+$block-module-heading-padding: 			10px !default;
+$block-module-heading-font-size:		17px !default;
+$block-module-heading-color:			$aqua !default;
+$block-module-content-bg:				$white !default;
+$block-module-content-border:			1px solid $border-color !default;
+$block-module-content-padding:			20px !default;
+$block-module-content-margin:         	1px !default;
+$block-module-content-radius:         	0px !default;
+
+
+$block-module-highlighted-bg			: $white !default;
+$block-module-highlighted-border		: $border-color !default;
+
+$block-module-footer-heading-color:  	  #2a2a2a !default; 
+
+$block-product-padding:               0 !default;
+$block-heading-letter-spacing:        0 !default; 
+
+
+
+
+
+/*  
+ * LAYOUT VARIABLES 
+ */
+
+// Header
+// ========================================================================
+$header-bg:  						$white !default;
+$header-icon-bg:                    $wild-sand !default;
+$header-border-color:               1px solid transparent !default;
+$header-heading-color:              $theme-color-secondary !default;
+$header-text-color:                 $tundora !default;
+$header-link-color: 				$header-text-color !default;
+$header-icon-font-size:             $font-size-base + 4 !default;
+
+// Topbar 
+// ========================================================================
+$topbar-outside-bg: 				$white !default;
+$topbar-bg: 						$topbar-outside-bg !default;
+$topbar-color: 						$base-body-color !default;
+$topbar-font-size: 					$font-size-base !default;
+$topbar-font-family:				$font-family !default;
+$topbar-font-weight:                500 !default;
+$topbar-link-color: 				$base-body-color !default;
+$topbar-link-hover-color: 			$theme-color-default !default;
+$topbar-icon-color: 				$theme-color-default !default;
+$topbar-padding: 					9px 0 !default;
+$topbar-height:                     30px !default;
+$topbar-border:                     1px solid #dfdfdf !default;
+
+// Mass header 
+$masshead-outside-bg :			$theme-color-secondary !default;
+$masshead-bg: 			 		$theme-color-secondary !default;
+$masshead-content-padding:		8px 0 !default;
+$masshead-color:				#aab2bd !default;
+$masshead-color-hover:			lighten($theme-color-secondary,5%);
+
+// header main
+$headermain-outside-bg :			$white !default;
+$headermain-bg: 			 		$headermain-outside-bg !default;
+$headermain-content-padding:		8px 0 !default;
+$headermain-color:					$header-text-color !default;
+$headermain-color-hover:			$link-hover-color;	
+
+// Main menu 
+$megamenu-outside-border:		transparent !default;
+$megamenu-outside-bg :			$body-bg !default;
+$megamenu-bg: 			 		transparent !default;
+$megamenu-content-padding:		0 !default;
+$megamenu-color:					$base-text-color !default;
+$megamenu-color-hover:			$link-hover-color;	
+
+// Promotions
+
+//Main Content
+
+// Footer
+// ========================================================================
+
+$footer-outside-bg: 				$white !default;
+$footer-bg: 						$footer-outside-bg !default;
+$footer-color: 						#aab2bd !default;
+$footer-heading-font-size: 			$font-size-base + 2!default;
+$footer-heading-color: 				$white !default;
+$footer-heading-padding:            0 !default;
+$footer-link-color: 				#aab2bd !default;
+$footer-link-hover-color: 			$theme-color-default !default;
+$footer-font-size:   	 			$font-size-base !default;
+     
+$footer-content-padding:            15px !default;
+$footer-content-margin:             0 !default;
+$footer-list-padding:               6px 0 !default;
+$footer-margin:                     20px !default;
+
+ /////// footer top
+$footer-top-outside-border:			1px solid #505862 !default;
+$footer-top-outside-bg :			$white !default;
+$footer-top-bg: 			 		$theme-color-default !default;
+$footer-top-color:					#aab2bd !default;
+$footer-top-content-padding:		20px !default;
+$footer-top-color-hover:			lighten($footer-top-color,5%);	
+$footer-top-border:					#505862 !default;
+
+/////// footer center 
+$footer-center-outside-border:		1px solid #d9d9d9 !default;
+$footer-center-outside-bg :			$white !default;
+$footer-center-bg: 			 		$footer-center-outside-bg !default;
+$footer-center-content-padding:		30px 0!default;
+$footer-center-color:				#888 !default;
+$footer-center-color-hover:			$theme-color-default;	
+
+/////// footer bottom 
+$footer-bottom-outside-bg :			$white !default;
+$footer-bottom-bg: 			 		$footer-bottom-outside-bg !default;
+$footer-bottom-content-padding:		20px 0!default;
+$footer-bottom-color:				#2a2a2a !default;
+$footer-bottom-color-hover:			lighten($footer-bottom-color,5%);	
+/////// footer nav 
+$footer-nav-outside-bg :			$theme-color-default !default;
+$footer-nav-bg: 			 		$footer-nav-outside-bg !default;
+$footer-nav-content-padding:		30px 0!default;
+$footer-nav-color:					#fff!default;
+$footer-nav-color-hover:			lighten($black,5%);	
+
+// Powered By / Copyright
+// ========================================================================
+$power-bg:       					$theme-color-secondary !default;
+$power-color:                       $footer-color !default;
+$power-link-color:                  $theme-color-default !default;
+$power-padding:                     $padding-large-vertical * 3.5 !default;
+$power-font-family  : 				$font-family;
+$power-border-color:				#505862;
+
+ 
+// Responsive
+// ========================================================================
+$respon-topbar-icon:                $white !default;
+$respon-topbar-icon-font-size:      $font-size-base !default;
+$respon-topbar-search-bg:           $white !default;
+$respon-topbar-search-icon-color:   $black !default;

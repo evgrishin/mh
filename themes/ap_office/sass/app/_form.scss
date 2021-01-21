@@ -1,0 +1,23 @@
+.buttons{
+  @include clearfix();
+  padding: 20px 0; 
+  .left{
+       float:left;
+  }
+  .right{
+      float:right;
+  }
+
+}
+
+input[type="file"] {
+  line-height: 20px;
+}
+
+.btn-outline-inverse{
+  @include button-variant-outline($btn-default-color, $theme-color-default, $theme-color-default, $white, $theme-color-secondary , $theme-color-secondary );
+} 
+.btn-outline{
+  @include button-variant-outline(  $white, $theme-color-secondary , $theme-color-secondary , $btn-default-color, $theme-color-default, $theme-color-default );
+} 
+

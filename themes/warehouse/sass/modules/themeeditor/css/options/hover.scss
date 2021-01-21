@@ -1,0 +1,32 @@
+@import "compass";
+@import "theme_variables";
+
+//hover
+.ajax_block_product{
+	@include transition(box-shadow 0.3s ease);
+	.button-container{margin-top: 3px;}
+	&:hover{
+		@include box-shadow(0 1px 7px rgba(0,0,0, 0.15));
+		z-index: 3;
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+}
+.product_list.list{
+	.ajax_block_product{
+		&:hover{
+			padding-top: 0px;
+			padding-bottom: 0px;
+			.product-container{border-color: transparent;}
+			+ li{.product-container{border-color: transparent;}}
+		}
+
+	}
+}
+
+	.simpleblog-posts {
+		.post-item {
+			&:hover{
+						@include box-shadow(0 1px 7px rgba(0,0,0, 0.15));
+					}}}
+//end hover

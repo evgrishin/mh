@@ -1,0 +1,62 @@
+@import "compass";
+@import "theme_variables";
+
+
+$link-hover-color: 			#0079c0;
+
+$theme-color-default: 		#0079c0;
+
+$topbar-outside-bg: 		#0079c0;
+$topbar-bg: 				$topbar-outside-bg;
+$topbar-color: 				#fff;
+$topbar-color-hover: 		#fff;
+$topbar-link-color: 		#fff;
+$topbar-link-hover-color: 	#fff;
+$topbar-border:             1px solid #f6f4f4;
+
+$headermain-outside-bg: 	$body-bg;
+$headermain-bg: 			$headermain-outside-bg;
+$headermain-color: 			#9c9c9c;
+$headermain-color-hover: 		$link-hover-color;
+$headermain-link-hover-color: 	$link-hover-color;
+
+$mainnav-outside-border:	1px solid #e4e4e4;
+$mainnav-outside-bg: 		$body-bg;
+$mainnav-bg: 				$mainnav-outside-bg;
+$mainnav-color: 			#9c9c9c;
+$mainnav-color-hover: 		$link-hover-color;
+$mainnav-link-color: 		#9c9c9c;
+$mainnav-link-hover-color: 	$link-hover-color;
+
+$footer-top-bg: 				#0079c0;
+
+$footer-center-color-hover: 	$link-hover-color;
+
+$footer-nav-outside-bg: 		#0079c0;
+$footer-nav-bg: 				$footer-nav-outside-bg;
+
+$cart-heading-color : 					$theme-color-default;
+
+$block-module-heading-bg:				$theme-color-default;
+$block-module-border-color: 			$border-color;
+$block-module-content-bg:				$white;
+
+$block-module-highlighted-bg			: #ffd926;
+$block-module-highlighted-border		: $base-border-color;
+
+$button-addtocart-bg-hover:         $theme-color-default;
+$button-addtocart-color:            $white;
+$button-addtocart-border-2:         $theme-color-default;
+$button-addtocart-hover-color:      $white;
+
+$product-name-hover-color:			#0079c0;
+$brand-primary:						#7bbade;
+
+$breadcrumb-active-color: 			$link-hover-color;
+
+$nav-pills-active-link-hover-bg: 	$theme-color-default;
+
+
+$image-theme-base-path: "img/";
+
+@import "../_skin";

@@ -1,0 +1,108 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/* Home hook CSS */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\000036}}
+#htmlcontent_home ul {
+  margin: 0 -5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\000038}}
+#htmlcontent_home ul li {
+  padding: 0 5px 10px;
+}
+@media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\000038}}
+  #htmlcontent_home ul li {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000313}}
+#htmlcontent_home ul li img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000313}}
+  #htmlcontent_home ul li img {
+    min-width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000320}}
+#htmlcontent_home ul li.htmlcontent-item-5 {
+  width: 66.6667%;
+}
+@media (max-width: 479px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000320}}
+  #htmlcontent_home ul li.htmlcontent-item-5 {
+    width: 100%;
+  }
+}
+
+/* Top hook CSS */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000331}}
+#htmlcontent_top {
+  float: right;
+  width: 33%;
+  max-width: 391px;
+  padding-left: 5px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000331}}
+  #htmlcontent_top {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000342}}
+  #htmlcontent_top ul {
+    margin: 0 -5px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000346}}
+#htmlcontent_top ul li {
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000346}}
+  #htmlcontent_top ul li {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000355}}
+#htmlcontent_top ul li:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/xampp\/htdocs\/prestashop\/demo1609\/ap_office\/themes\/ap_office\/sass\/modules\/themeconfigurator\/sass\/hooks\.scss}line{font-family:\0000358}}
+#htmlcontent_top ul li img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

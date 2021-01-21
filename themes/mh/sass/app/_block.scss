@@ -1,0 +1,96 @@
+@import "vars/block.vars";
+
+// block.scss
+.#{$block-selector} { 
+    margin: 0 0 15px; 
+    .page-subheading{
+        margin: 0;
+        padding: 15px 20px;
+        background: $white;
+        border-bottom: $main-border;
+        font-size: 18px;
+        font-family: $font-family-for;
+        a{
+            color: $block-heading-color;
+        }
+    }
+}
+
+// block in sidebar - left column, right column
+.sidebar{
+    .#{$block-selector} {
+        margin-bottom: $block-margin-bottom;   
+        .#{$block-heading-selector}{
+            color: $block-heading-color;
+            a{
+                color: $block-heading-color;
+            }
+            position: relative;                                                             
+            text-transform: $block-heading-transform;
+            font-family: $block-heading-font-family;    
+            padding: 20px 10px;         
+            font-size: $block-heading-font-size;
+            letter-spacing: $block-heading-letter-spacing;   
+            background:$block-heading-bg;  
+            @include rounded-corners ($block-heading-radius);
+            border-top: $block-heading-border-top; 
+            margin: 0; 
+            &:before {
+                position: relative; 
+                content: $block-icon-content; 
+                @include rtl-margin-right(5px);
+                font-family: $font-icon;
+            } 
+            
+        }
+        .#{$block-content-selector} {        
+            @include rounded-corners ($block-content-radius);
+            padding: 0 15px 20px;
+            @include clearfix();     
+            border: $block-content-border;  
+            background: $block-content-bg;          
+        }
+        .lnk {
+            margin-top: 10px;
+        }
+        .bullet{
+            li{
+                text-transform: uppercase;
+                @include rtl-padding(6px, 0, 6px, 10px);
+            }
+        }
+        .product-block {
+            .name {width: 100%;}
+            .content_price  {position: inherit;}
+            .price, .price-old, .old-price {position: inherit;}
+        }
+    }
+
+    // block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+    // Contextual variations
+    .#{$block-prefix}-default {
+      @include block-variant($panel-default-border, $panel-default-text, $panel-default-border);
+    }
+    .#{$block-prefix}-primary {
+      @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-border);
+    }
+    .#{$block-prefix}-success {
+      @include block-variant($panel-success-border, $panel-success-text, $panel-success-border);
+    }
+    .#{$block-prefix}-info {
+      @include block-variant($panel-info-border, $panel-info-text, $panel-info-border);
+    }
+    .#{$block-prefix}-warning {
+      @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-border);
+    }
+    .#{$block-prefix}-danger {
+      @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-border);
+    }
+    .#{$block-prefix}-highlighted {
+        @include block-variant($block-highlighted-border, $block-highlighted-text, $block-highlighted-border);
+    }
+}
+
+// block in header
+// block in footer
+// block in main

@@ -1,0 +1,11 @@
+nav.stick {
+  zoom: 1;
+  filter: alpha(opacity=88);
+  opacity: 0.85;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+  nav.stick:hover {
+    filter: alpha(opacity=100);
+    opacity: 1.0; }
